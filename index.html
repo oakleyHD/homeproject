@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
     <link href="main.css" rel="stylesheet">
 </head>
@@ -43,6 +44,33 @@
            	<div class="account" id="signIn">Войти</div>
            <div class="account" id="signUp">Зарегистрироваться</div>
           </div>
+          <div id="modal" class="modal-visible none">
+          	<form>
+          		<p>Ваше имя:
+          		<br> 
+          		<input type="text" name="username">
+          	    </p>
+          	    <p>
+          	    <p>Ваш email:
+          		<br> 
+          		<input type="text" name="username">
+          	    </p>
+          	    <p>
+          	    <p>Ваш телефон:
+          		<br>
+          		<p>Ваш пароль:
+          		<br> 
+          		<input type="password" name="username">
+          	    </p>
+          	    <p>Напишите пароль еще раз:
+          		<input type="password" name="username">
+          	    </p>
+          	    <p class="sumbit1">
+          	    	<input type="submit" value="Отправить">
+          	    </p>
+          	</form>
+          	<div class="closeModal" id="closModal">&times;</div>
+          </div>
            <main>
            	<div id="mainItemCatalog">
                <div class="mainItemCatalog1">
@@ -68,7 +96,11 @@
                </div>
               </div> 
            </main>
-           <footer>Все права защищены ©</footer>
+           <footer>Все права защищены ©
+            <div class="animText">
+            	<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</p>
+            </div>
+           </footer>
        </div>
    </div>
    
