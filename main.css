@@ -201,14 +201,38 @@ body{
     animation-timing-function: linear;
 }
 @-webkit-keyframes animTExt{
+    0%{
+        transform: translateX(8%);
+    }
       100%{
         transform:translateX(-100%);
       }
 }
 
+.modal-visible{
+    position:fixed;
+    top:100px;
+    left:30%;
+    z-index:5;
+    background-color:#e8e8e8;
+    padding:10px;
+    border-radius:8px;
+}
+.none{
+    display:none;
+}
 
-
-
+.closeModal{
+    position:absolute;
+    top:0;
+    left:0;
+    height:20px;
+    width:20px;
+    border-radius:100%;
+    color:darkgray;
+    background:white;
+    text-align: center;
+}
 
 
 
