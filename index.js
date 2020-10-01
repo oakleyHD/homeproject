@@ -40,3 +40,18 @@ function slideSet(){
 	slide[currentSlide].className = 'slide showing';
 }
 continueSlideInterval();
+
+
+const modal = document.getElementById("modal");
+const signUp = document.getElementById("signUp");
+const closModal = document.getElementById("closModal");
+
+signUp.addEventListener("click", showModal);
+closModal.addEventListener("click", closeModal);
+
+function showModal(){
+	modal.className = "modal-visible";
+}
+function closeModal(){
+	modal.className = "none";
+}
